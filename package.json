@@ -1,0 +1,30 @@
+{
+  "name": "smf-seed-vanilla",
+  "version": "1.0.0",
+  "description": "Seed project for plain vanilla Smartface development environment",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "serve-static": "^1.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.0",
+    "gulp-order": "^1.1.1",
+    "gulp-uglify": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serkanserttop/smf-seed-vanilla.git"
+  },
+  "author": "Serkan Serttop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serkanserttop/smf-seed-vanilla/issues"
+  },
+  "homepage": "https://github.com/serkanserttop/smf-seed-vanilla"
+}
